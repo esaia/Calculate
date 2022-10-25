@@ -17,7 +17,7 @@ function App() {
             <div className='flex gap-5 items-center w-[150px]'>
               <h2 className='flex-1'>Price:</h2>
               <input
-                type='text'
+                type='number'
                 className='w-[70px] p-2 border-[1px] rounded-sm  border-blue-900'
                 placeholder='1.1690'
                 onChange={(e) => setprice(e.target.value)}
@@ -27,7 +27,7 @@ function App() {
             <div className='flex gap-5 items-center  w-[150px]'>
               <h2 className='flex-1'>USDT:</h2>
               <input
-                type='text'
+                type='number'
                 className='w-[70px] p-2 border-[1px] rounded-sm  border-blue-900'
                 onChange={(e) => setusdt(e.target.value)}
                 value={usdt}
